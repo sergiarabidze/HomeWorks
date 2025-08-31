@@ -1,0 +1,10 @@
+﻿Console.Title = "Blue Console";
+Console.BackgroundColor = ConsoleColor.Blue;
+Console.ForegroundColor = ConsoleColor.White;
+Console.Clear();
+Console.WriteLine("Sergi Arabidze");
+Console.Write("Write something: ");
+var input = Console.ReadLine();
+Console.WriteLine($"You typed: {input}");
+Console.WriteLine("\nPress any key");
+Console.ReadKey();
