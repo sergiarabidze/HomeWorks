@@ -82,7 +82,7 @@ namespace HomeworkExercises
             Console.Write("Enter n: ");
             int n = int.Parse(Console.ReadLine());
 
-            for (int i = 3; i <= n; i+=2)
+            for (int i = 2; i <= n; i+=2)
             {
                     Console.WriteLine(i * i);
             }
