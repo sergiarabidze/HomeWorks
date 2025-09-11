@@ -23,11 +23,11 @@ namespace HomeworkSolutions
             //};
             //Console.WriteLine(CalculatePoints(footballResults));
 
-            //var hours1 = new[] { 8, 8, 8, 8, 8, 0, 0 };
+            var hours1 = new[] { 8, 8, 8, 8, 8, 0, 0 };
             //var hours2 = new[] { 8, 8, 8, 8, 8, 8, 0 };
             //var hours3 = new[] { 4, 4, 4, 4, 4, 0, 4 };
             //var hours4 = new[] { 5, 8, 8, 8, 8, 8, 8 };
-            //Console.WriteLine(CalculateWeeklySalary(hours1));
+            Console.WriteLine(CalculateWeeklySalary(hours1));
             //Console.WriteLine(CalculateWeeklySalary(hours2));
             //Console.WriteLine(CalculateWeeklySalary(hours3));
             //Console.WriteLine(CalculateWeeklySalary(hours4));
