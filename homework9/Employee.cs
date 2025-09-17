@@ -47,7 +47,7 @@ namespace homework9
 
                 double dailyPay = normalHours * GetRate() + overtime * (GetRate() + 5);
 
-                if (i >= 5) // შაბათი ან კვირა
+                if (i >= 5)
                     dailyPay *= 2;
 
                 salary += dailyPay;
