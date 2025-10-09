@@ -5,8 +5,7 @@ internal class Program
 {
     static void Main(string[] args)
     {
-
-
+        CaesarCipherFromFile();
     }
     public static void PrintLastLine()
     {
@@ -117,7 +116,7 @@ internal class Program
 
     static void CaesarCipherFromFile()
     {
-        String inputFile = "caesar_input.txt";
+        String inputFile = "C:\\Users\\sergi\\Desktop\\C#\\homework2\\Blue\\homework11\\caesar_input.txt";
         String outputFile = "caesar_output.txt";
 
         if (!File.Exists(inputFile))
